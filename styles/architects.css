@@ -15,6 +15,18 @@ color:#424242 ;
 .dark-3{
     color: #727272;
 }
+/* Common button */
+.btn-primary{
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px 25px;
+    font-weight: 600;
+    border: none;
+}
 
 /* header section */
 .bg-color{
@@ -43,4 +55,24 @@ font-size: 18px;
 .navbar,.banner{
     max-width: 1140px;
     margin: 0px auto;
+}
+/* banner styles */
+.banner{
+ text-align: center;
+}
+.banner-content{
+    margin-bottom: 15px;
+}
+.banner img{
+    width: 1140px;
+    height: 600px;
+}
+.banner-img{
+    max-width: 100%;
+}
+/* Responsive section style */
+@media screen and (max-width:576px){
+    .navbar,.links{
+        flex-direction: column;
+    }
 }
