@@ -131,25 +131,6 @@ font-weight: 600;
 margin-top: 5px;
 margin-bottom: 10px;
 }
-
-/* Responsive section style */
-@media screen and (max-width:576px){
-    .navbar,.links,.teams,.text-container{
-        flex-direction: column;
-    }
-    .img-container,.fact-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .text-container{
-    
-        margin-left: 20px;
-    }
-    .fact-container{
-        justify-content: center;
-        gap: 24px;
-    }
-
-}
 /* sponspores related styles */
 .Sponspors-info{
     max-width: 540px;
@@ -173,12 +154,33 @@ margin-bottom: 10px;
     align-content: center;
     margin-top: 20px;
 }
-/* .footer-content p{
-     justify-content: center;
-  
-    text-align: center;
-    align-content: center;
-} */
+
+
+/* Responsive section style */
+@media screen and (max-width:576px){
+    .navbar,.links,.teams,.text-container{
+        flex-direction: column;
+    }
+    .img-container,.fact-container,.sp-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .text-container{
+    
+        margin-left: 20px;
+    }
+    .fact-container{
+        justify-content: center;
+        gap: 24px;
+    }
+    .sp-img{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+}
+
 /* for medium device */
 @media screen and (min-width:576px) and (max-width:992px){
     .teams{
