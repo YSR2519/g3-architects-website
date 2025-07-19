@@ -150,6 +150,35 @@ margin-bottom: 10px;
     }
 
 }
+/* sponspores related styles */
+.Sponspors-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sp-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sp-img img{
+    filter: grayscale(100%);
+}
+/* footer-content */
+.footer-content{
+    width: 1140px;
+    height: 100px;
+    background-color:#FFF4E7 ;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+}
+/* .footer-content p{
+     justify-content: center;
+  
+    text-align: center;
+    align-content: center;
+} */
 /* for medium device */
 @media screen and (min-width:576px) and (max-width:992px){
     .teams{
